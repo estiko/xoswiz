@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.cyanogenmod.account"
+        package="com.xoplax.xoswiz"
         android:versionCode="2">
 
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
@@ -50,10 +50,10 @@
     <permission android:name="org.whispersystems.whisperpush.permissions.REGISTER"
                 android:protectionLevel="signature" />
 
-    <permission android:name="com.cyanogenmod.account.permission.C2D_MESSAGE"
+    <permission android:name="com.xoplax.xoswiz.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.cyanogenmod.account.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.xoplax.xoswiz.permission.C2D_MESSAGE" />
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="17" />
 
@@ -68,7 +68,7 @@
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <service android:name="com.cyanogenmod.account.auth.AuthService"
+        <service android:name="com.xoplax.xoswiz.auth.AuthService"
             android:exported="true">
 
             <intent-filter>
@@ -117,7 +117,7 @@
 
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.cyanogenmod.account" />
+                <category android:name="com.xoplax.xoswiz" />
             </intent-filter>
         </receiver>
 
@@ -141,7 +141,7 @@
         </receiver>
         <receiver android:name=".receiver.ApplyHexoIconsReceiver" android:exported="false">
             <intent-filter>
-                <action android:name="com.cyanogenmod.account.intent.action.APPLY_HEXO_ICONS" />
+                <action android:name="com.xoplax.xoswiz.intent.action.APPLY_HEXO_ICONS" />
             </intent-filter>
         </receiver>
 
@@ -164,6 +164,6 @@
 
         <provider
                 android:name=".provider.CMAccountProvider"
-                android:authorities="com.cyanogenmod.account.store"/>
+                android:authorities="com.xoplax.xoswiz.store"/>
     </application>
 </manifest>

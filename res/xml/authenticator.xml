@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
-        android:accountType="com.cyanogenmod.account"
+        android:accountType="com.xoplax.xoswiz"
         android:icon="@drawable/icon"
         android:smallIcon="@drawable/icon"
         android:label="@string/account_name" />

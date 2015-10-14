@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">CyanogenMod Account</string>
-    <string name="product_name" translatable="false">cyanogenmod</string>
-    <string name="account_name" translatable="false">CyanogenMod</string>
+    <string name="app_name">XOSWiz</string>
+    <string name="product_name" translatable="false">xoswiz</string>
+    <string name="account_name" translatable="false">XoplaX OS</string>
 
     <string name="next">Next</string>
     <string name="continue_label">Continue</string>
@@ -37,7 +37,7 @@
     <string name="setup_complete">Setup is complete</string>
     <string name="setup_complete_summary" product="tablet">Congratulations! Your tablet is ready to rumble.</string>
     <string name="setup_complete_summary" product="default">Congratulations! Your phone is ready to rumble.</string>
-    <string name="setup_welcome">Welcome to CyanogenMod</string>
+    <string name="setup_welcome">Welcome to XoplaX OS</string>
     <string name="setup_welcome_summary" product="tablet">To get started setting up your tablet, select your language and continue.</string>
     <string name="setup_welcome_summary" product="default">To get started setting up your phone, select your language and continue.</string>
     <string name="setup_cmaccount">Set up your CyanogenMod account</string>

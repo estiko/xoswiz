@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Akun CyanogenMod</string>
+  <string name="app_name">XOSWiz</string>
   <string name="next">Berikutnya</string>
   <string name="continue_label">Lanjutkan</string>
   <string name="prev">Sebelumnya</string>
@@ -34,7 +34,7 @@
   <string name="setup_complete">Setup selesai</string>
   <string name="setup_complete_summary" product="tablet">Selamat! Tablet anda siap beraksi.</string>
   <string name="setup_complete_summary" product="default">Selamat! Telepon anda siap beraksi.</string>
-  <string name="setup_welcome">Selamat datang di CyanogenMod</string>
+  <string name="setup_welcome">Selamat datang di XoplaX OS</string>
   <string name="setup_welcome_summary" product="tablet">Untuk memulai menyiapkan tablet anda, pilih bahasa dan lanjutkan.</string>
   <string name="setup_welcome_summary" product="default">Untuk memulai menyiapkan telepon anda, pilih bahasa dan lanjutkan.</string>
   <string name="setup_cmaccount">Setup akun CyanogenMod</string>
