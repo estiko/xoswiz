@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.account;
+package com.xoplax.xoswiz;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -37,9 +37,9 @@ public class CMAccount extends Application implements Response.Listener<GetMinim
     // Leave this off for release
     public static final boolean DEBUG = false;
 
-    public static final String ACCOUNT_TYPE_CMAccount = "com.cyanogenmod.account";
+    public static final String ACCOUNT_TYPE_CMAccount = "com.xoplax.xoswiz";
     public static final String ACCOUNT_TYPE_GOOGLE = "com.google";
-    public static final String AUTHTOKEN_TYPE_ACCESS = "com.cyanogenmod.account";
+    public static final String AUTHTOKEN_TYPE_ACCESS = "com.xoplax.xoswiz";
     public static final String AUTHTOKEN_EXPIRES_IN= "com.xoplax.xoswiz.auth.expires_in";
     public static final String ACCOUNT_EXTRA_DEVICE_SALT = "com.xoplax.xoswiz.auth.device_salt";
     public static final String ACCOUNT_EXTRA_HMAC_SECRET = "com.xoplax.xoswiz.auth.hmac_secret";
@@ -56,7 +56,7 @@ public class CMAccount extends Application implements Response.Listener<GetMinim
 
     public static final String GCM_PREFERENCES = "com.xoplax.xoswiz.gcm";
     public static final String AUTH_PREFERENCES = "com.xoplax.xoswiz.auth";
-    public static final String SETTINGS_PREFERENCES = "com.cyanogenmod.account_preferences";
+    public static final String SETTINGS_PREFERENCES = "com.xoplax.xoswiz_preferences";
     public static final String ENCRYPTION_PREFERENCES = "com.xoplax.xoswiz.encryption";
 
     public static final String BACKOFF_MS = "backoff_ms";

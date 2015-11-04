@@ -20,10 +20,10 @@ import android.util.Log;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.cyanogenmod.account.CMAccount;
+import com.xoplax.xoswiz.CMAccount;
 import com.xoplax.xoswiz.api.CMAccountJsonRequest;
 import com.xoplax.xoswiz.api.response.AddPublicKeysResponse;
-import com.cyanogenmod.account.auth.AuthClient;
+import com.xoplax.xoswiz.auth.AuthClient;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
